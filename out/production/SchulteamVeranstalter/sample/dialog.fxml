@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DialogPane?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<DialogPane fx:controller="sample.datamodel.TeacherController" xmlns:fx="http.//javafx.com/fxml">
+    <headerText>
+        Ausfüllen die Informationen für den neuen Lehrer
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Vorname" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="firstNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+            <Label text="Nachname " GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="lastNameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label text="Lehrfach" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="subjectField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label  text="Telefonnummer" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField fx:id="phoneNumberField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <Label text="E-Mail" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <TextField fx:id="emailField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+            <Label text="Anmerkung" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+            <TextField fx:id="notesField" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+        </GridPane>
+    </content>
+</DialogPane>
