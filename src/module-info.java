@@ -8,7 +8,8 @@ module SchulteamVeranstalter {
     requires javafx.web;
     requires java.desktop;
     requires jlfgr;
+    requires java.sql;
+    requires java.sql.rowset;
 
-    opens sample;
     opens sample.datamodel;
 }

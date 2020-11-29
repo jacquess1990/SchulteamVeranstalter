@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teachers><teachers><teacher>
-	<first_name></first_name>
-	<last_name></last_name>
-	<subject></subject>
-	<phoneNumber></phoneNumber>
-	<email></email>
-	<notes></notes>
+	<first_name>MIlos</first_name>
+	<last_name>Horvat</last_name>
+	<subject>Biologie</subject>
+	<phoneNumber>041202020</phoneNumber>
+	<email>milos@gmail.com</email>
+	<notes>Prvak slagalice</notes>
 </teacher>
 </teachers>
 </teachers>
