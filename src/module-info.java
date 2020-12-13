@@ -10,6 +10,8 @@ module SchulteamVeranstalter {
     requires jlfgr;
     requires java.sql;
     requires java.sql.rowset;
+    exports sample;
 
     opens sample.datamodel;
+    opens sample to javafx.fxml;
 }
