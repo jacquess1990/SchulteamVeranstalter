@@ -48,6 +48,7 @@ public class TeacherData {
             XMLEventReader eventReader = inputFactory.createXMLEventReader(in);
 
             Teacher teacher = null;
+            // Teacher = null makes confusion here
 
             while (eventReader.hasNext()) {
                 XMLEvent event = eventReader.nextEvent();
